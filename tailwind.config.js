@@ -11,7 +11,7 @@ module.exports = {
         50: "70%",
       },
       backgroundImage: {
-        boxes: "url('/assets/boxes.png')",
+        boxes: "url('~/assets/boxes.png')",
       },
       fontFamily: {
         poppins: ["Poppins"],
