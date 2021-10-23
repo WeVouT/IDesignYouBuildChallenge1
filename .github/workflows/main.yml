@@ -26,7 +26,7 @@ jobs:
       
       - name: Angular Deploy gh-pages Actions
         uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.2
-          github_access_token: ${{secrets.ACCESS_TOKEN}} 
+          github_access_token: ${{ secrets.ACCESS_TOKEN }}
           build_configuration: production
           deploy_branch: gh-pages # The branch the action should deploy to.
           angular_dist_build_folder: dist/iDesignYouBuildOne # The folder where your project is supposed to be after running ng build by the action.
