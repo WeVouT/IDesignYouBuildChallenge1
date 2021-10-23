@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         boxes: "url('~/assets/boxes.png')",
+        moon: "url('~/assets/moon.png')",
       },
       fontFamily: {
         poppins: ["Poppins"],
